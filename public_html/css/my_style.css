@@ -1,0 +1,2445 @@
+#VideoOne {
+  position: fixed;
+  padding: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.main-menu-part {
+  width: 100%;
+  height: calc(100vh + 77px);
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.main-menu-small-window {
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: none;
+  position: relative;
+}
+
+.main-menu-small-window p.window-text-bottom {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 35px;
+  z-index: 99;
+}
+
+.main-menu-small-window i.window-icon-bottom {
+  position: absolute;
+  top: 80%;
+  right: 5%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 25px;
+  z-index: 99;
+}
+
+.main-menu-small-window p.window-text-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 35px;
+  z-index: 99;
+}
+
+.main-menu-small-window i.window-icon-center {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 25px;
+  z-index: 99;
+}
+
+.main-menu-small-window p.window-text-top {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 35px;
+  z-index: 99;
+}
+
+.main-menu-small-window i.window-icon-top {
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 25px;
+  z-index: 99;
+}
+
+.image-nav {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity .5s ease-in-out;
+}
+
+.image-1 {
+  background-image: url('../images/psychoterapia grupowa - uslugi.jpg');
+}
+
+.image-2 {
+  background-image: url('../images/faq.jpg');
+}
+
+.image-3 {
+  background-image: url('../images/Facylitacja w organizacji i rozwiązywanie konfliktów.jpg');
+}
+
+.image-4 {
+  background-image: url('../images/strona o mnie.jpg');
+}
+
+.image-5 {
+  background-image: url('../images/cennik.jpg')
+}
+
+.image-6 {
+  background-image: url('../images/kontakt z psychoterapeutą.jpg');
+}
+
+.image-1:hover, .image-2:hover, .image-3:hover, .image-4:hover, .image-5:hover, .image-6:hover {
+  opacity: 1;
+}
+
+/***************
+  Video Psychotherapy
+***************/
+.center-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.video-box {
+  width: 100%;
+  height: calc(100vh - 175px);
+}
+
+.video__hero {
+  position: relative;
+}
+
+#fullVideo {
+  width: 100%;
+}
+
+@media (max-width: 991.98px) {
+  .split {
+    width: 100%;
+  }
+}
+
+/***************
+  Fonts
+***************/
+.movie-overlay {
+  background-color: rgba(0, 0, 0, .3);
+}
+
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#one-two {
+  padding-top: 98px;
+  margin-top: -98px;
+}
+
+@media (max-width:991.98px) {
+  #one-two {
+    padding-top: 0;
+    margin-top: 0;
+  }
+}
+
+#one-two .section__title {
+  margin-top: 30px;
+}
+
+@font-face {
+  font-family: 'Cambria';
+  font-display: swap;
+  src: url('../fonts/Cambria/Cambria.ttf');
+}
+
+@font-face {
+  font-family: 'Gotham-Font';
+  font-display: swap;
+  src: url('../fonts/Gotham-Font/GothamBook.ttf');
+}
+
+@font-face {
+  font-family: 'TruenoBd';
+  font-display: swap;
+  src: url('../fonts/trueno/TruenoExBd.0tf');
+}
+
+.font-cambria {
+  font-family: 'Cambria';
+}
+
+.font-gotham {
+  font-family: 'Gotham-Font';
+}
+
+.font-trueno {
+  font-family: 'TruenoExBd';
+}
+
+/***************
+  Main styling
+***************/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Cambria", sans-serif;
+  color: #555;
+}
+
+a {
+  color: #2daae1;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2daae1;
+  text-decoration: none;
+}
+
+p {
+  font-size: 20px;
+}
+
+button {
+  font-family: 'Cambria' !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "TruenoExBd", serif;
+  color: #666666;
+}
+
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 21px;
+  }
+
+  h3 {
+    font-size: 21px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1198.98px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 55px;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+}
+
+/****** Scrollbar ******/
+::-webkit-scrollbar {
+  width: 8px;
+  background: linear-gradient(180deg, rgba(60, 191, 0, 1) 30%, rgba(224, 248, 213, 1) 80%);
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background: #0867ad;
+}
+
+/****** Preloader ******/
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background: #fff;
+}
+
+#preloader:after {
+  position: fixed;
+  top: calc(50% - 16px);
+  left: calc(50% - 16px);
+}
+
+#preloader:before {
+  content: "";
+  position: fixed;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  border: 2px solid #2daae1;
+  border-top-color: #d1e6f9;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: animate-preloader 1s linear infinite;
+  animation: animate-preloader 1s linear infinite;
+}
+
+@-webkit-keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/****** Cookies ******/
+.modal-backdrop {
+  background-color: transparent;
+}
+
+.modal-dialog {
+  min-width: 100%;
+  margin: 0;
+}
+
+.modal-dialog p {
+  font-size: 14px;
+  margin: 9px 0;
+}
+
+.modal-content {
+  border: 1px solid #000;
+}
+
+.modal-body {
+  padding: 7px;
+  background-color: #000;
+  color: #fff;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .modal-dialog {
+    display: block;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+.btn-outline-accept {
+  border-color: #fff;
+  border-radius: 50px;
+  background-color: #000;
+  color: #fff;
+  height: 40px;
+  margin: auto 20px;
+}
+
+.btn-outline-accept:hover {
+  background-color: #fff;
+  color: #666;
+}
+
+/****** Back To Top Button ******/
+a.back-to-top {
+  text-decoration: none;
+}
+
+.back-to-top {
+  position: fixed;
+  display: none;
+  right: 15px;
+  bottom: 20px;
+  z-index: 99999;
+}
+
+.back-to-top i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  border: 2px solid #666;
+  background: #fff;
+  /* Old browsers
+  background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+  background: -webkit-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+  background: linear-gradient(to bottom, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#7db9e8', GradientType=0);
+ */
+  color: #666;
+  transition: all 0.4s;
+}
+
+.back-to-top i:hover {
+  margin-bottom: 5px;
+  background: #fff;
+  /*
+  background: -moz-linear-gradient(top, #7db9e8 0%, #207cca 49%, #2989d8 50%, #1e5799 100%);
+  background: -webkit-linear-gradient(top, #7db9e8 0%, #207cca 49%, #2989d8 50%, #1e5799 100%);
+  background: linear-gradient(to bottom, #7db9e8 0%, #207cca 49%, #2989d8 50%, #1e5799 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7db9e8', endColorstr='#1e5799', GradientType=0); */
+  color: #666;
+}
+
+/****** Sections ******/
+section {
+  padding: 30px 0;
+}
+
+@media (max-width:991.98px) {
+  h1.section__title {
+    margin-top: 16px;
+  }
+}
+
+.section__title, .section__title--one {
+  padding-left: 0;
+  position: relative;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+
+.section__title::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: #2daae1;
+  top: -5px;
+  left: 0;
+}
+
+.section__bg--gradient {
+  background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.12);
+}
+
+/***************
+  Hero
+***************/
+.hero {
+  width: 100%;
+  height: 88vh;
+}
+
+p.hero__heading {
+  padding-top: 150px;
+  margin: 0 0 10px 0;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #fff;
+  z-index: 99;
+}
+
+p.hero__heading--big {
+  margin: 0 0 10px 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+  z-index: 99;
+}
+
+p.hero__heading--small {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 300;
+  z-index: 99;
+}
+
+.hero__btn {
+  font-size: 64px;
+  transition: 0.5s;
+  color: #fff;
+  height: 60px;
+  position: relative;
+  animation: arrowMove 1.3s linear 0s infinite alternate;
+}
+
+.hero__btn:hover {
+  color: #2daae1;
+}
+
+@media (max-width:1054.98px) {
+  p.hero__heading {
+    padding-top: 0;
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width:991.98px) {
+  p.hero__heading--big {
+    font-size: 25px;
+    line-height: 27px;
+  }
+
+  p.hero__heading--small {
+    font-size: 18px;
+    line-height: 19px;
+  }
+}
+
+@keyframes arrowMove {
+  0% {
+    top: 0px;
+  }
+
+  100% {
+    top: -20px;
+  }
+}
+
+@media (min-width: 991.98px) {
+  .hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  h1.hero__heading {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  h2.hero__heading {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+/***************
+  Header
+***************/
+ul {
+  letter-spacing: 1px;
+}
+
+li {
+  color: #626262;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+
+#header, #header-two {
+  background: #fff;
+  position: sticky;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  transition: all 0.5s ease;
+  padding: 20px 0;
+}
+
+.header__container {
+  position: relative;
+}
+
+#header #logo .img-fluid, #header-two #logo .img-fluid {
+  max-width: 60%;
+}
+
+@media (max-width:991.98px) {
+  #header #logo .img-fluid, #header-two #logo .img-fluid {
+    max-width: 30%;
+  }
+}
+
+#header #logo p {
+  color: #505050;
+  font-family: "Cambria", sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+#header #logo p a {
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#header #logo p a span {
+  color: #71c55d;
+}
+
+#header.header-scrolled, #header-two.header-scrolled {
+  background: #fff;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
+/***** Nav Menu Essentials *****/
+.nav-menu, .nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menu ul {
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: 0;
+  z-index: 99;
+}
+
+.nav-menu li {
+  position: relative;
+  white-space: nowrap;
+}
+
+.nav-menu>li {
+  float: left;
+}
+
+.nav-menu li:hover>ul,
+.nav-menu li.sfHover>ul {
+  display: block;
+}
+
+.nav-menu ul ul {
+  top: 0;
+  left: 100%;
+}
+
+.nav-menu ul li {
+  min-width: 180px;
+}
+
+/***** Nav Meu Container *****/
+#nav-menu-container {
+  float: right;
+  margin: 0;
+  padding: 16px 0;
+}
+
+@media (max-width: 1055.98px) {
+  #nav-menu-container {
+    display: none;
+  }
+}
+
+/****** Nav Meu Styling ******/
+.nav-menu a {
+  padding: 12px 8px 0px 8px;
+  text-decoration: none;
+  display: inline-block;
+  color: #555;
+  font-weight: 400;
+  font-size: 14px;
+  outline: none;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+.nav-menu>li {
+  margin-left: 10px;
+  text-align: center;
+  min-width: 90px;
+}
+
+.nav-menu ul {
+  margin: 0;
+  padding: 10px;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  background: #fff;
+}
+
+.nav-menu ul li {
+  transition: 0.3s;
+}
+
+.nav-menu ul li a {
+  padding: 5px 10px;
+  transition: 0.3s;
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition-property: font-weight;
+  transition-duration: 0.3s;
+}
+
+.nav-menu ul li:hover>a {
+  color: #000;
+  font-weight: 900;
+}
+
+.nav-menu li:hover>a {
+  color: #000;
+  font-weight: 900;
+}
+
+.link {
+  min-width: 70px;
+  display: inline-block;
+  position: relative;
+}
+
+.nav-menu ul ul {
+  margin: 0;
+}
+
+.new-button {
+  z-index: 3;
+  border: 2px solid #666;
+  border-radius: 50px;
+}
+
+.call-me-button--nav {
+  padding: 5px 10px;
+}
+
+.call-me-button--nav a {
+  color: #666;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px 10px;
+  text-transform: none;
+}
+
+@media (max-width:1055.98px) {
+  .call-me-button--nav {
+    margin: 0 5px 0 5px;
+  }
+}
+
+.call-me-button {
+  z-index: 3;
+  border: 2px solid #666;
+  border-radius: 50px;
+  transition: 0.3s;
+  position: relative;
+}
+
+.call-me-button a {
+  color: #666 !important;
+  font-size: 18px;
+  padding: 5px 50px 16px 50px;
+}
+
+.nav-menu .nav-buttons i {
+  color: #0867ad;
+  font-size: 30px;
+  padding: 10px;
+  text-shadow: 1px 1px #000;
+}
+
+.nav-menu .nav-buttons-plus img.add {
+  padding: 5px;
+  width: 40px;
+  height: auto;
+}
+
+@media (max-width:1055.98px) {
+  .nav-buttons img.add {
+    padding: 5px;
+    width: 40px;
+  }
+}
+
+p.nav-buttons i {
+  padding: 10px 12px;
+  color: #ff0000;
+}
+
+p.nav-buttons i {
+  font-size: 40px;
+}
+
+.nav-buttons a {
+  font-size: 25px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.accordion-body a {
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.call-me-button--big {
+  z-index: 5;
+  height: 60px;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+.call-me-button--big a {
+  padding: 0 20px;
+}
+
+@media (max-width: 576.98px) {
+  .call-me-button--big {
+    font-size: 1.1em;
+    line-height: 1.1em;
+  }
+
+  .call-me-button--big a {
+    padding: 10px 10px;
+  }
+}
+
+/***** Nav Menu only for main page *****/
+#header-one {
+  background: none;
+  position: sticky;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  transition: all 0.5s ease;
+  padding: 20px 0;
+}
+
+#header-one .nav-menu li>a {
+  color: #fff;
+}
+
+#header-one .nav-menu ul {
+  background: none;
+  box-shadow: none;
+}
+
+.nav-menu a.text-dark {
+  color: #555;
+  font-weight: 400;
+}
+
+#header-one .nav-menu ul.white-background {
+  background: #fff;
+  box-shadow: 0px 0px 30px rgb(127 137 161 / 25%);
+}
+
+#header-one #logo {
+  padding: 6px 0 0 0;
+}
+
+#header-one #logo .img-fluid {
+  max-width: 60%;
+}
+
+@media (max-width:991.98px) {
+  #header-one #logo .img-fluid {
+    max-width: 30%;
+  }
+}
+
+@media (max-width:575.98px) {
+  #header-one {
+    padding: 20px 0 0 0;
+  }
+}
+
+#header-one #logo p {
+  color: #505050;
+  font-family: "Cambria", sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+#header-one.header-scrolled {
+  background: #fff;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
+/***** Mobile Nav Toggle *****/
+#mobile-nav-toggle {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 999;
+  margin: 17px 20px 0 0;
+  border: 0;
+  background: none;
+  font-size: 24px;
+  display: none;
+  transition: all 0.4s;
+  outline: none;
+  cursor: pointer;
+}
+
+#mobile-nav-toggle i {
+  color: #FE3030;
+  font-size: 24px;
+}
+
+@media (max-width: 1055.98px) {
+  #mobile-nav-toggle {
+    display: inline;
+  }
+
+  i.fa-caret-down {
+    display: none;
+  }
+}
+
+/***** Navigation hamburger *****/
+.sf-arrows .sf-with-ul {
+  padding-right: 22px;
+}
+
+.sf-arrows .sf-with-ul:after {
+  content: "\f107";
+  position: absolute;
+  right: 8px;
+  margin-top: 1px;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.sf-arrows ul .sf-with-ul:after {
+  content: "\f105";
+}
+
+/* Mobile Nav Styling */
+#mobile-nav {
+  position: fixed;
+  top: 0;
+  padding-top: 18px;
+  bottom: 0;
+  z-index: 998;
+  background: rgba(255, 255, 255, 0.9);
+  left: -260px;
+  width: 260px;
+  overflow-y: auto;
+  transition: 0.4s;
+}
+
+#mobile-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#mobile-nav ul li {
+  position: relative;
+}
+
+#mobile-nav ul li a {
+  color: #666;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 6px 22px 6px 15px;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+  outline: none;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+#mobile-nav ul li a:hover {
+  color: #666;
+}
+
+#mobile-nav ul li li {
+  padding-left: 30px;
+}
+
+.menu-has-children ul li a {
+  margin: 0;
+  padding: 5px;
+  line-height: 1.2;
+  text-align: left;
+}
+
+#mobile-nav ul .menu-has-children i {
+  position: absolute;
+  right: 0;
+  z-index: 99;
+  padding: 15px;
+  cursor: pointer;
+  color: #666;
+}
+
+#mobile-nav ul .menu-has-children i.fa-chevron-up {
+  color: #666;
+}
+
+#mobile-nav ul .menu-active a {
+  color: #666;
+}
+
+#mobile-body-overly {
+  width: 100%;
+  height: 100%;
+  z-index: 997;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background: rgba(255, 255, 255, 0.9);
+  display: none;
+}
+
+/* Mobile Nav body classes */
+body.mobile-nav-active {
+  overflow: hidden;
+}
+
+body.mobile-nav-active #mobile-nav {
+  left: 0;
+}
+
+body.mobile-nav-active #mobile-nav-toggle i {
+  color: #666;
+}
+
+/***************
+Section Breadcrumbs
+***************/
+.breadcrumbs {
+  padding: 15px 0;
+  min-height: 40px;
+  z-index: 1;
+}
+
+@media (max-width:575.98px) {
+  .breadcrumbs {
+    display: none;
+  }
+}
+
+.breadcrumbs h2 {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.breadcrumbs ol li+li {
+  padding-left: 3px;
+}
+
+.breadcrumbs ol li+li::before {
+  display: inline-block;
+  padding-right: 3px;
+  color: #6c757d;
+  content: "/";
+}
+
+@media (max-width: 768px) {
+  .breadcrumbs .d-flex {
+    display: block !important;
+  }
+
+  .breadcrumbs ol {
+    display: block;
+  }
+
+  .breadcrumbs ol li {
+    display: inline-block;
+  }
+}
+
+/***************
+  Main Page
+***************/
+.one__hero {
+  height: calc(100vh - 475px);
+  min-height: 700px;
+  position: relative;
+}
+
+@media (max-width: 991.98px) {
+  .one__hero {
+    display: block;
+    height: auto !important;
+  }
+}
+
+.video__hero .text-hero {
+  width: 70%;
+}
+
+.text {
+  padding: 8px;
+}
+
+.text, .one__image, .two__image, .five__image, .six__image, .seven__image, .eight__image, .nine__image, .ten__image, .eleven__image, .twelve__image, .thirteen__image, .fourteen__image, .fifteen__image, .sixteen__image, .seventeen__image, .eightteen__image, .nineteen__image, .twenty__image, .full__movie {
+  width: 50%;
+}
+
+.one__image {
+  background: rgba(255, 255, 255, 0) url('../images/Psychoterapia indywidualna.jpg') no-repeat center top;
+}
+
+.two__image {
+  background: rgba(255, 255, 255, 0) url('../images/Coaching indywidualny i zawodowy.jpg') no-repeat center top;
+}
+
+.five__image {
+  background: rgba(255, 255, 255, 0) url('../images/11.jpg') no-repeat center top;
+}
+
+.six__image {
+  background: rgba(255, 255, 255, 0) url('../images/13.jpg') no-repeat center top;
+}
+
+.seven__image {
+  background: rgba(255, 255, 255, 0) url('../images/kiedy zgłosić się na psychoterapię.jpg') no-repeat center top;
+}
+
+.eight__image {
+  background: rgba(255, 255, 255, 0) url('../images/18.jpg') no-repeat center top;
+}
+
+.nine__image {
+  background: rgba(255, 255, 255, 0) url('../images/23.jpeg') no-repeat center top;
+}
+
+.ten__image {
+  background: rgba(255, 255, 255, 0) url('../images/Terapia pracowników w firmie lub organizacji.jpg') no-repeat center top;
+}
+
+.eleven__image {
+  background: rgba(255, 255, 255, 0) url('../images/Budowanie zespołu i wzrost efektywnosi w firmie.jpg') no-repeat center top;
+}
+
+.twelve__image {
+  background: rgba(255, 255, 255, 0) url('../images/psychoterapia indywidualna stalowa wola.jpg') no-repeat center top;
+}
+
+.thirteen__image {
+  background: rgba(255, 255, 255, 0) url('../images/co to jest psychoterapia.jpg') no-repeat center top;
+}
+
+.fourteen__image {
+  background: rgba(255, 255, 255, 0) url('../images/Facylitacja w organizacji.jpg') no-repeat center top;
+}
+
+.fifteen__image {
+  background: rgba(255, 255, 255, 0) url('../images/co osiągniesz dzięki coachingowi.jpg') no-repeat center top;
+}
+
+.sixteen__image {
+  background: rgba(255, 255, 255, 0) url('../images/Współpraca w zespole i budowanie zespołu.jpg') no-repeat center top;
+}
+
+.seventeen__image {
+  background: rgba(255, 255, 255, 0) url('../images/Budowanie zespołu.jpg') no-repeat center top;
+}
+
+.eightteen__image {
+  background: rgba(255, 255, 255, 0) url('../images/23.jpeg') no-repeat center top;
+}
+
+.nineteen__image {
+  background: rgba(255, 255, 255, 0) url('../images/Terapia dla pracowników.jpg') no-repeat center top;
+}
+
+.twenty__image {
+  background: rgba(255, 255, 255, 0) url('../images/Facylitacja w organizacji i rozwiązywanie konfliktów.jpg') no-repeat center top;
+}
+
+@media (max-width: 991.98px) {
+  .one__hero .text, .three__hero .text, .one__image, .two__image, .five__image, .six__image, .seven__image, .eight__image, .nine__image, .ten__image, .eleven__image, .twelve__image, .thirteen__image, .fourteen__image, .fifteen__image, .sixteen__image, .seventeen__image, .eightteen__image, .nineteen__image, .twenty__image, .video__hero .text-hero {
+    width: 100%;
+  }
+}
+
+.one__hero .intro, .video__hero .intro {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+@media (min-width: 992px) {
+  .one__hero .intro, .video__hero .intro {
+    max-width: 700px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.one__image, .two__image, .five__image, .six__image, .seven__image, .eight__image, .nine__image, .ten__image, .eleven__image, .twelve__image, .thirteen__image, .fourteen__image, .fifteen__image, .sixteen__image, .seventeen__image, .eightteen__image, .nineteen__image, .twenty__image, .full__movie {
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  position: relative;
+}
+
+@media (max-width: 991.98px) {
+  .one__image, .two__image, .five__image, .six__image, .seven__image, .eight__image, .nine__image, .ten__image, .eleven__image, .twelve__image, .thirteen__image, .fourteen__image, .fifteen__image, .sixteen__image, .seventeen__image, .eightteen__image, .nineteen__image, .twenty__image, .full__movie {
+    height: 700px;
+    min-height: 400px;
+    margin-bottom: 30px;
+  }
+}
+
+.one-two li {
+  letter-spacing: normal;
+}
+
+.one-two .call-me-button {
+  width: 270px;
+  margin-top: 3px;
+  padding: 10px 0;
+  transition: width .4s;
+}
+
+.one-two .call-me-button .fas {
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: 4px;
+  color: #666;
+}
+
+.one-two .call-me-button:hover {
+  width: 300px;
+}
+
+.quote .contact__dots--two {
+  top: -50px;
+}
+
+.quotation {
+  padding: 40px;
+  z-index: 99;
+  position: relative;
+}
+
+.quotation i {
+  font-size: 50px;
+  position: absolute;
+  top: -40px;
+  right: 40px;
+}
+
+.invoice__box--two .paragraph-one {
+  font-size: 30px;
+  font-style: italic;
+}
+
+.invoice__box--two .paragraph-two {
+  font-size: 20px;
+  position: relative;
+}
+
+.paragraph-two::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: #2daae1;
+  top: -5px;
+  left: 0;
+}
+
+@media (max-width:575.98px) {
+  .quotation {
+    padding: 0;
+  }
+
+  .invoice__box--two .paragraph-one {
+    font-size: 22px;
+  }
+}
+
+/***** Testimonials *****/
+.testimonials .testimonial__item {
+  box-sizing: content-box;
+  min-height: 320px;
+}
+
+.testimonials .testimonial__item .testimonial-img {
+  width: 90px;
+  border-radius: 50%;
+  margin: -40px 0 0 40px;
+  position: relative;
+  z-index: 2;
+  border: 6px solid #fff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials .testimonial__item p.testimonial__name--one {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px 45px;
+  color: #2c4964;
+}
+
+.testimonials .testimonial__item p.testimonial__name--two {
+  font-size: 14px;
+  color: #6b96be;
+  margin: 0 0 0 45px;
+}
+
+.testimonials .testimonial__item .quote-icon-left, .testimonials .testimonial__item .quote-icon-right {
+  color: #f7d9e6;
+  font-size: 26px;
+}
+
+.testimonials .testimonial__item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+
+.testimonials .testimonial__item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+}
+
+.testimonials .testimonial__item p.testimonial__main {
+  font-style: italic;
+  margin: 0 15px 0 15px;
+  padding: 20px 20px 60px 20px;
+  background: #fff;
+  position: relative;
+  border-radius: 6px;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials .owl-nav, .testimonials .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.testimonials .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd !important;
+}
+
+.testimonials .owl-dot.active {
+  background-color: #d43076 !important;
+}
+
+@media (max-width: 767px) {
+  .testimonials {
+    margin: 30px 10px;
+  }
+}
+
+/***************
+  Section About
+***************/
+.about .content {
+  padding: 30px 0 30px 20px;
+}
+
+h1.about__heading, h2.about__heading {
+  margin: 0 0 1em 0;
+}
+
+.about .image {
+  background: url("../images/me.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
+
+@media (max-width: 991px) {
+  .about .image {
+    text-align: center;
+  }
+
+  .about .image img {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 667px) {
+  .about .image img {
+    max-width: 100%;
+  }
+}
+
+/***************
+  Section Call to Action
+***************/
+.action h3.action__heading {
+  font-weight: 900;
+  text-align: left;
+  color: #666;
+}
+
+@media (max-width:575.98px) {
+  .action h3.action__heading {
+    font-size: 25px;
+    text-align: center;
+  }
+}
+
+.action .padd-section {
+  min-height: 450px;
+  background: rgba(0, 0, 0, 0) url(../images/2a.jpg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+
+.padd-section .call-me-button--big {
+  position: absolute;
+  right: 20px;
+  top: 200px;
+}
+
+@media (max-width:576.98px) {
+  .padd-section .call-me-button--big {
+    position: absolute;
+    right: 20px;
+    top: 320px;
+  }
+}
+
+/***************
+  Section Contact
+***************/
+.contact {
+  position: relative;
+}
+
+.contact__dots {
+  position: absolute;
+  top: -10%;
+}
+
+.contact__dots--one {
+  position: absolute;
+  bottom: 205px;
+  left: 2px;
+  z-index: 99;
+}
+
+@media (max-width:575.98px) {
+  .contact__dots--one {
+    bottom: 245px;
+  }
+}
+
+.contact__dots--two {
+  position: absolute;
+  bottom: 305px;
+  left: 160px;
+}
+
+.contact__dots::before, .contact__dots--one::before, .contact__dots--two::before {
+  z-index: 1;
+  right: 0;
+  -webkit-transform: translateX(60%);
+  -ms-transform: translateX(60%);
+  transform: translateX(60%);
+  position: absolute;
+  content: "";
+  width: 304px;
+  height: 264px;
+  background: url("../images/dots.png") right top;
+}
+
+@media (max-width:991.98px) {
+  .contact__dots::before {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.contact .contact__section {
+  display: flex;
+}
+
+.contact .contact__about h3 {
+  font-size: 32px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 300;
+  text-transform: capitalize;
+  color: #2daae1;
+}
+
+.contact .contact__about p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.contact .contact__about img {
+  max-width: 80%;
+}
+
+@media (max-width:576.98px) {
+  .contact .contact__about img {
+    max-width: 50%;
+  }
+}
+
+.action-contact {
+  background: rgba(0, 0, 0, 0) url(../images/kontakt.jpg) no-repeat bottom left;
+  background-size: cover;
+  min-height: 450px;
+  position: relative;
+}
+
+.action-contact .action__text {
+  position: absolute;
+  right: 5%;
+  margin-top: 6%;
+}
+
+.action-contact h2.action__heading {
+  color: #fff;
+  font-weight: 900;
+  text-shadow: 1px 1px #000;
+  font-size: 55px;
+}
+
+.action-contact .action__text p {
+  color: #fff;
+  font-weight: 700;
+  text-shadow: 1px 1px #000;
+}
+
+@media (max-width:1199.98px) {
+  .action-contact h2.action__heading {
+    font-size: 35px;
+  }
+}
+
+@media (max-width:576.98px) {
+  .action-contact h2.action__heading {
+    font-size: 25px;
+  }
+}
+
+p.nav-buttons a {
+  display: block;
+  margin: auto;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fade {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fade {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-icon {
+  -webkit-animation: fade 2s infinite;
+  -moz-animation: fade 2s infinite;
+  -o-animation: fade 2s infinite;
+  animation: fade 2s infinite;
+}
+
+/***************
+  Footer
+***************/
+.footer {
+  background: #fff;
+  padding: 24px 0;
+  font-size: 14px;
+}
+
+.footer-contact {
+  padding-left: 15px;
+}
+
+.footer__copyright p {
+  text-align: left;
+  padding: 0;
+  font-size: 15px !important;
+}
+
+.footer__credits p {
+  text-align: right;
+  padding: 0;
+  font-size: 15px !important;
+}
+
+@media (max-width:767.98px) {
+  .footer__credits p {
+    text-align: center;
+  }
+
+  .footer__copyright p {
+    text-align: center;
+  }
+}
+
+/***************
+  Page contact
+***************/
+.contact__hero {
+  height: calc(100vh - 475px);
+  min-height: 700px;
+  position: relative;
+}
+
+@media (max-width: 991.98px) {
+  .contact__hero {
+    display: block;
+    height: auto !important;
+  }
+}
+
+.contact__hero .text, .contact__hero .contact__image {
+  width: 50%;
+}
+
+.contact__hero .contact__image {
+  background: rgba(255, 255, 255, 0) url('../images/kontakt z psychoterapeutą.jpg') no-repeat center top;
+  background-size: contain;
+}
+
+.custom-spacing {
+  padding-top: 75px;
+}
+
+@media (max-width: 991.98px) {
+  .contact__hero .text, .contact__hero .contact__image {
+    width: 100%;
+  }
+
+  .contact__hero .text {
+    margin-top: 30px;
+  }
+}
+
+.contact__hero .intro {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.contact__hero .intro .img-fluid {
+  max-width: 80%;
+}
+
+@media (max-width: 575.98px) {
+  .contact__hero .intro .img-fluid {
+    max-width: 50%;
+  }
+}
+
+.contact__hero .contact__image {
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  position: relative;
+}
+
+.feature {
+  padding: 15px;
+  min-height: 316px;
+  transition: transform .5s;
+}
+
+@media (max-width:767.98px) {
+  .feature {
+    min-height: 200px;
+  }
+}
+
+.feature h3 {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.feature p {
+  line-height: 1.5;
+}
+
+.feature ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.feature ul li a {
+  font-size: 20px;
+  display: block;
+  padding: 15px;
+}
+
+a.nav-buttons-plus img.add {
+  transition: transform .5s;
+}
+
+a.nav-buttons-plus img.add:hover {
+  transform: scale(.8);
+}
+
+.contact-features .feature:hover {
+  transform: scale(1.1);
+}
+
+.contact-features {
+  padding: 100px 0;
+}
+
+.contact-features .contact-icon {
+  max-height: 70px;
+}
+
+.map {
+  width: 50%;
+  height: 100%;
+  box-shadow: 0px 0px 25px #6b6b6b;
+}
+
+.invoice__box {
+  position: relative;
+}
+
+.invoice__box--one {
+  position: absolute;
+  top: -20px;
+  right: -50px;
+  z-index: 1;
+}
+
+.invoice__box__text {
+  z-index: 2;
+}
+
+.invoice__box--two {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, .12);
+  height: auto;
+  width: 100%;
+  z-index: 4;
+}
+
+.invoice__box--two p {
+  line-height: 1.5;
+}
+
+.action-contact-first {
+  min-height: 450px;
+}
+
+.action-contact-second {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  min-height: 450px;
+}
+
+.text-inside {
+  position: absolute;
+  top: 20%;
+  color: #fff;
+  z-index: 99;
+}
+
+@media (max-width:991.98px) {
+  .contact__hero .intro {
+    max-width: 700px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .contact__hero .contact__image {
+    margin-bottom: 30px;
+  }
+
+  .contact-features {
+    padding: 50px 0;
+  }
+
+  .map {
+    width: 100%;
+    height: 400px;
+  }
+
+  .action-contact-first {
+    min-height: 0px !important;
+  }
+}
+
+/***************
+  Page FAQ
+***************/
+.faq__tabs {
+  display: flex;
+}
+
+.nav-pills {
+  margin-right: 20px;
+}
+
+.nav-pills a.nav-link {
+  margin: 10px 0 0 0;
+  height: 50px;
+  box-shadow: 1px 2px 3px #6b6b6b;
+  color: #555;
+  text-align: center;
+  font-size: 18px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background: #1e5799;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#7db9e8', GradientType=0);
+  /* IE6-9 */
+  color: #fff;
+}
+
+.accordion-button:not(.collapsed), .first-number {
+  background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+  color: #000;
+}
+
+.accordion-button:focus, .accordion-button {
+  border: none;
+  box-shadow: none;
+  background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+}
+
+.accordion-item {
+  box-shadow: 1px 2px 3px #6b6b6b;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.accordion-body, .accordion-collapse {
+  border: none;
+}
+
+@media (max-width: 767.98px) {
+  .faq__tabs {
+    display: block;
+  }
+
+  .nav-pills {
+    margin-right: 0;
+  }
+}
+
+.img-faq {
+  background-image: url('../images/Najczesciej zadawane pytania - psychoterapia i coaching.jpg');
+  background-size: cover;
+  width: 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  min-height: 450px;
+  position: relative;
+}
+
+.faq-heading {
+  position: absolute;
+  top: 30%;
+  right: 7%;
+}
+
+@media (max-width: 991.98px) {
+  .faq-heading {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+  }
+}
+
+/***************
+  Help Page
+***************/
+.img-help {
+  background-image: url('../images/Pomoc w sytuacjach kryzysowych.jpg');
+  background-size: cover;
+  width: 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  min-height: 450px;
+  position: relative;
+}
+
+.help-heading {
+  position: absolute;
+  top: 20%;
+  right: 7%;
+}
+
+@media (max-width: 991.98px) {
+  .help-heading {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+  }
+}
+
+.accordion-body p.phone {
+  margin-bottom: 4px;
+}
+
+img.phone-button-help {
+  width: 70px;
+  display: block;
+  margin: auto;
+}
+
+/***************
+  Page Pricing
+***************/
+.pricing__title {
+  position: relative;
+}
+
+.img-pricing {
+  background-image: url('../images/Konsultacja oraz sesja indywidualna.jpg');
+  background-size: cover;
+  width: 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  min-height: 450px;
+  position: relative;
+}
+
+.pricing-heading {
+  position: absolute;
+  top: 40%;
+  right: 5%;
+}
+
+@media (max-width: 576.98px) {
+  .pricing-heading {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+  }
+}
+
+.pricingTable .pricingTable-header {
+  padding: 20px 0 0 0;
+  margin: 0 0 5px;
+  min-height: 60px;
+}
+
+.pricingTable-header h3 {
+  min-height: 76px;
+  color: #333;
+  font-weight: 500;
+  margin: 0;
+  line-height: 1;
+}
+
+@media (max-width:991.98px) {
+  .pricingTable .pricingTable-header {
+    min-height: 40px;
+  }
+
+  .pricingTable-header h3 {
+    min-height: 40px;
+  }
+}
+
+.pricingTable .content-list {
+  padding: 0;
+  margin: 0 0 27px;
+  list-style: none;
+  display: inline-block;
+}
+
+.pricingTable .content-list li {
+  color: #666;
+  font-size: 22px;
+  text-align: left;
+  margin: 0 0 27px;
+  position: relative;
+}
+
+.pricingTable .content-list li:last-child {
+  margin-bottom: 0;
+}
+
+/***************
+  Page About Me
+***************/
+.four__hero {
+  height: calc(100vh - 475px);
+  position: relative;
+}
+
+@media (max-width: 991.98px) {
+  .four__hero {
+    display: block;
+    height: auto !important;
+  }
+}
+
+.four__hero .text, .four__hero .four__image, .four__hero .img-pricing {
+  width: 50%;
+}
+
+.four__hero .four__image {
+  background: rgba(255, 255, 255, 0) url('../images/strona o mnie.jpg') no-repeat center top;
+  background-size: cover;
+}
+
+@media (max-width: 991.98px) {
+  .four__hero .text, .four__hero .four__image, .four__hero .img-pricing {
+    width: 100%;
+  }
+}
+
+.four__hero .intro {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 991.98px) {
+  .four__hero .intro {
+    max-width: 700px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .intro {
+    padding: 0 12px;
+  }
+}
+
+.four__hero .four__image, .four__hero .img-pricing {
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 475px);
+  min-height: 400px;
+  position: relative;
+}
+
+@media (max-width: 991.98px) {
+  .four__hero .four__image, .four__hero .img-pricing {
+    margin-bottom: 30px;
+  }
+}
+
+.about-me .about-me-title {
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #4b7dab;
+}
+
+.about-me .about-me-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 3px solid #d4d4d4;
+  position: relative;
+}
+
+.about-me .about-me-item h3 {
+  line-height: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+@media (max-width:575.98px) {
+  .about-me .about-me-item h3 {
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .about-me h2 {
+    margin-top: 25px;
+  }
+}
+
+.about-me .about-me-item p {
+  line-height: 1.2;
+}
+
+.about-me .about-me-item ul {
+  padding-left: 20px;
+}
+
+.about-me .about-me-item ul li {
+  font-size: 18px;
+  line-height: 18px;
+  padding-bottom: 10px;
+  font-family: 'Cambria';
+  letter-spacing: 1px;
+}
+
+.about-me .about-me-item:last-child {
+  padding-bottom: 0;
+}
+
+.about-me .education::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #f08122;
+  border: 2px solid #d4d4d4;
+}
+
+.about-me .courses::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #FDC918;
+  border: 2px solid #d4d4d4;
+}
+
+/**********
+  Policy
+**********/
+.privacy ol li {
+  font-family: 'cambria';
+  letter-spacing: normal;
+  font-size: 20px;
+}
+
+.privacy ol li ul li {
+  list-style-type: lower-alpha;
+}
+
+.img-contact {
+  background-image: url('../images/10.jpg');
+  background-size: cover;
+  width: 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+  min-height: 450px;
+  position: relative;
+  filter: grayscale(100%);
+}
+
+.img-contact:hover {
+  filter: grayscale(0%);
+}
+
+/**************
+  Psychotherapy Page
+**************/
+.img-psychotherapy {
+  background-image: url('../images/12.jpg');
+  background-size: cover;
+  width: 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  min-height: 450px;
+  position: relative;
+}
+
+.psychotherapy-heading {
+  position: absolute;
+  bottom: 20%;
+  left: 12%;
+}
+
+@media (max-width: 575.98px) {
+  .psychotherapy-heading {
+    position: absolute;
+    bottom: 20%;
+    left: 0%;
+  }
+}
+
+.content-one-items {
+  position: relative;
+}
+
+.content-one .content-one-items li, .one__hero .content-one-items li, .content-two .content-one-items li {
+  list-style-type: round;
+  font-family: 'cambria';
+  font-size: 20px;
+  line-height: 1.5em;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+@media (max-width:576.98px) {
+  .content-one .content-one-items li, .one__hero .content-one-items li, .content-three .content-one-items li, .content-two .content-one-items li {
+    font-size: 16px;
+  }
+}
+
+.fa-check-double {
+  color: green;
+}
+
+.offer-card {
+  max-width: 350px;
+  background-color: #FFF;
+  border-radius: 5px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  margin: 10px auto;
+}
+
+.offer-card img {
+  transition: all 0.25s linear;
+}
+
+.single-blog .offer-card img {
+  height: 200px;
+  width: auto;
+}
+
+.offer-card i {
+  padding-top: 30px;
+  font-size: 90px;
+  color: green;
+}
+
+.offer-card .offer-content {
+  position: relative;
+  padding: 15px;
+  background-color: #FFF;
+}
+
+.offer-card .offer-description h3 {
+  color: #666;
+  padding: 10px;
+  line-height: 1;
+}
+
+.offer-card .offer-description {
+  font-size: 18px;
+}
+
+.offer-card:hover img {
+  transform: rotate(5deg) scale(1.1, 1.1);
+}
+
+.offer-card img.contact-icon {
+  max-height: 70px;
+  margin-top: 20px;
+  transform: none;
+}
+
+.content-three .offer-content {
+  min-height: 210px;
+}
+
+h2.height-heading {
+  min-height: 72px;
+}
+
+.offer-font-big {
+  text-transform: uppercase;
+}
+
+.image-main-menu {
+  display: flex;
+  position: relative;
+}
+
+.image-second-menu {
+  display: none;
+}
+
+#header-one {
+  display: block !important;
+}
+
+#header-two {
+  display: none !important;
+}
+
+@media (max-width:1054.98px) {
+  #header-one {
+    display: none !important;
+  }
+
+  .image-main-menu {
+    display: none;
+  }
+
+  #header-two {
+    display: block !important;
+  }
+
+  .image-second-menu {
+    display: flex;
+  }
+}
+
+.image-main-menu-row {
+  width: 100%;
+  height: 100vh;
+}
+
+.image-main-menu-hero {
+  height: 100vh;
+}
+
+/* Hide phone number in top menu*/
+.text-call {
+  display: none;
+}
+
+/* Show phone number in top menu  */
+@media (max-width: 1055.98px) {
+  .text-call {
+    display: inline-block;
+  }
+
+  .call-number {
+    display: none;
+  }
+}
