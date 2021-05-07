@@ -1,0 +1,10 @@
+{
+    "Psychoterapia":{
+        "name": "Psychoterapia",
+        "description": "Wszystkie posty, artykuły i wydarzenia dotyczące psychoterapii. Dowiedz się więcej na jej temat. Jak wygląda i kiedy warto ją stosować"
+    },
+    "Coaching":{
+        "name": "Coaching",
+        "description": "Wszystkie posty, artykuły i wydarzenia dotyczące coachingu. Dowiedz się więcej na jego temat. Jak wygląda i kiedy warto go stosować"
+    }
+}

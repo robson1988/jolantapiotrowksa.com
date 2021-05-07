@@ -1,0 +1,156 @@
+{
+"alarmowe" : {
+"2" : {
+"offset": "2",
+"icon" :"/images/icons/phone-blue.png",
+"numer": "800120002",
+"nazwa": "NIEBIESKA LINIA - OGÓLNOPOLSKIE POGOTOWIE DLA DOŚWIADCZAJĄCYCH PRZEMOCY W RODZINIE",
+"tekst": "Konsultacje dla sprawców i świadków przemocy. W wybranych godzinach również w języku angielskim, rosyjskim i migowym. Codziennie, całodobowo. SKYPE: pogotowie.niebieska.linia<br> <strong>800 120 002</strong>",
+"link": "niebieskalinia.info"
+},
+"3" : {
+"offset": "3",
+"icon" :"/images/icons/phone-red.png",
+"numer": "800120226",
+"nazwa": "POLICYJNY TELEFON ZAUFANIA DS. PRZECIWDZIAŁANIA PRZEMOCY W RODZINIE",
+"tekst": "Specjaliści służą wsparciem w sytuacji przemocy w rodzinie. Udzielają informacji na temat procedury \"Niebieskiej Karty\". Pomoc dla dzieci i dorosłych. Dni powszednie 9.30 do 15.30.<br> <strong>800 120 226</strong>",
+"link": ""
+},
+"4" : {
+"offset": "4",
+"icon" :"/images/icons/phone-red.png",
+"numer": "116123",
+"nazwa": "KRYZYSOWY TELEFON ZAUFANIA DLA DOROSŁYCH",
+"tekst": "Udziela pomocy osobom doświadczającym kryzysu emocjonalnego, samotnym, cierpiącym z powodu depresji, bezsenności, chronicznego stresu oraz bliskim osób w kryzysie. Codziennie 14.00 do 22.00. <br><strong>116 123</strong>",
+"link": "psychologia.edu.pl"
+},
+"5" : {
+"offset": "5",
+"icon" :"/images/icons/phone-red.png",
+"numer": "222182226",
+"nazwa": "CZP - CENTRA ZDROWIA PSYCHICZNEGO",
+"tekst": "Szybka pomoc psychologiczna i psychiatryczna w stanach nagłych. Placówki dla osób, u których pojawiają się zamiary samobójcze i współistniejące objawy psychotyczne, pacjentów z zaburzeniami psychotycznymi bez nasilenia objawów samobójczych, ale wymagających leczenia oraz osób z myślami samobójczymi bez planowania własnej śmierci. Na stronie znajdziesz miejsca objęte pilotażem. <br><strong>22 21 82 226, 22 21 82 274</strong>",
+"link": "czp.org.pl"
+},
+"6" : {
+"offset": "6",
+"icon" :"/images/icons/phone-red.png",
+"numer": "",
+"nazwa": "OIK - OŚRODKI INTERWENCJI KRYZYSOWEJ",
+"tekst": "Pomoc psychologiczna, prawna, socjalna, psychoterapia, mediacje, grupy wsparcia, zespoły interdyscyplinarne interwencje wyjazdowe na miejsce zdarzenia, miejsca noclegowe w wybranych placówkach. Profilaktyka dotyczy bezrobocia, rozwiązywania konfliktów rodzinnych, przemocy domowej, uzależnień, myśli samobójczych, żałoby po utracie bliskich, bezdomności, wypadków i katastrof, wykorzystywania seksualnego. Pomoc bezpłatna w sytuacjach kryzysowych, także dla osób bez ubezpieczenia.",
+"link": "oik.org.pl"
+},
+"7" : {
+"offset": "7",
+"icon" :"/images/icons/phone-red.png",
+"numer": "",
+"nazwa": "INTERNETOWE FORUM WSPARCIA \"RAZEM PRZECIW SAMOBÓJSTWOM\"",
+"tekst": "Nie jesteś sam(a), podyskutuj z innymi, którzy być może mają podobne problemy, jak Ty.",
+"link": "przyjaciele.org"
+},
+"8" : {
+"offset": "8",
+"icon" :"/images/icons/phone-red.png",
+"numer": "801889880",
+"nazwa": "TELEFON ZAUFANIA - UZALEŻNIENIA BEHAWIORALNE",
+"tekst": "Pomoc osobom z zachowaniem przyjmującym formę uzależnień: od komputera, seksu, pornografii, ćwiczeń fizycznych, telefonu komórkowego itp. Schorzeniami typu pracoholizm, zakupoholizm, patologiczny hazard czy kompulsywne objadanie się. Codziennie 17.00 do 22.00 z wyjątkiem świąt państwowych. <br><strong>801 889 880</strong>",
+"link": "psychologia.edu.pl"
+},
+"9" : {
+"offset": "9",
+"icon" :"/images/icons/phone-red.png",
+"numer": "574734814",
+"nazwa": "MONAR - NARKOMANIA, BEZDOMNOŚĆ, ZAGROŻENIA SPOŁECZNE",
+"tekst": "Pomoc bezdomnym, chorym, samotnym, zakażonym wirusem HIV, uzależnionym w tym więźniom. Wsparcie dla osób wykluczonych społecznie oraz profilaktyka zachowań ryzykownych, Stowarzyszenie prowadzi ośrodki stacjonarne, pobytu dziennego, noclegownie, szpital, poradnie i punkty konsultacyjne. Poradę i profesjonalną pomoc w sprawach dzieci i młodzieży mogą uzyskać także rodzice i opiekunowie. W dni powszednie 14:00 do 18:00.<br><strong>574 734 814</strong>",
+"link": "monar.org"
+},
+"10" : {
+"offset": "10",
+"icon" :"/images/icons/phone-red.png",
+"numer": "800199990",
+"nazwa": "OGÓLNOPOLSKI TELEFON ZAUFANIA NARKOTYKI - NARKOMANIA",
+"tekst": "Codziennie 16.00 do 21.00. <br><strong>800 199 990</strong>",
+"link": "kbpn.gov.pl"
+},
+"11" : {
+"offset": "11",
+"icon" :"/images/icons/phone-red.png",
+"numer": "800108108",
+"nazwa": "TELEFON WSPARCIA DLA OSÓB DOROSŁYCH PO STRACIE BLISKICH",
+"tekst": "Linia adresowana do wszystkich osób w żałobie, które potrzebują pomocy. Dzwoniący mogą anonimowo porozmawiać o swojej sytuacji, otrzymać wsparcie, zasięgnąć porady. Zadaniem dyżurujących psychologów jest podejmować interwencje w sytuacjach nagłych, a także pomagać w podejmowaniu decyzji o dalszej terapii w miejscu zamieszkania. W dni powszednie 14:00 do 20:00. <br><strong>800 108 108</strong>",
+"link": "naglesami.org.pl"
+},
+"12" : {
+"offset": "12",
+"icon" :"/images/icons/phone-red.png",
+"numer": "800199990",
+"nazwa": "BRAT ALBERT - POMOC DLA BEZDOMNYCH",
+"tekst": "Dla osób w ciężkiej sytuacji życiowej i bezdomnych. Schronienie, bezpłatne noclegi, posiłki, możliwości uzyskania pomocy medycznej i psychologicznej. <br><strong>800 199 990</strong>",
+"link": "bratalbert.org"
+},
+"13" : {
+"offset": "13",
+"icon" :"/images/icons/phone-orange.png",
+"numer": "800121212",
+"nazwa": "DZIECIĘCY TELEFON ZAUFANIA RZECZNIKA PRAW DZIECKA",
+"tekst": "Najczęściej zgłaszane sprawy dotyczą przemocy, problemów emocjonalnych, w relacjach rówieśniczych, szkolnych i rodzinnych oraz wynikających z okresu dorastania. Pod numer interwencyjny mogą też dzwonić osoby dorosłe, aby zgłosić problemy dzieci lub rażące zaniedbania względem nich. Codziennie, całodobowo. <br><strong>800 121 212</strong>",
+"link": "brpd.gov.pl"
+},
+"14" : {
+"offset": "14",
+"icon" :"/images/icons/phone-orange.png",
+"numer": "226359392",
+"nazwa": "GRUPA PONTON - EDUKATORZY SEKSUALNI",
+"tekst": "Edukacja oraz poradnictwo dla młodzieży w sprawach szeroko pojmowanej seksualności. Wolontariusze rozmawiają m.in. o antykoncepcji, ciele, dojrzewaniu, ciąży, seksie, kwestiach LGBTQI+, relacjach, emocjach, infekcjach przenoszonych drogą płciową, przeciwdziałaniu przemocy czy zdrowiu. Poruszają tematy współodpowiedzialności i asertywności, praw pacjenta i pacjentki. W dni powszednie 9.00 do 17:00. <br><strong>22 635 93 92</strong>",
+"link": "ponton.org.pl"
+},
+"15" : {
+"offset": "15",
+"icon" :"/images/icons/phone-orange.png",
+"numer": "",
+"nazwa": "STUDENCKI SERWIS ROZWOJU",
+"tekst": "Rady dla ludzi w każdym wieku, jak sobie radzić z problemami życia codziennego, emocjami, jak być asertywnym, empatycznym, co zrobić, gdy męczą nas różnego rodzaju choroby, samotność, lęk, nieśmiałość, uzależnienia, brak poczucia własnej wartości itp.",
+"link": "wiecjestem.us.edu.pl"
+},
+"16" : {
+"offset": "16",
+"icon" :"/images/icons/phone-orange.png",
+"numer": "800100100",
+"nazwa": "DAJEMY DZIECIOM SIŁĘ - POMOC DZIECIOM KRZYWDZONYM",
+"tekst": "Pomoc telefoniczna i online dla rodziców i nauczycieli, którzy potrzebują wsparcia i informacji w zakresie przeciwdziałania i pomocy psychologicznej dzieciom przeżywającym kłopoty i trudności takie jak: agresja i przemoc w szkole, cyberprzemoc i zagrożenia związane z nowymi technologiami, wykorzystanie seksualne, kontakt z substancjami psychoaktywnymi, depresja i obniżony nastrój, myśli samobójcze, zaburzenia odżywiania. W dni powszednie 12.00 do 15.00. www.800100100.pl <br><strong>800 100 100</strong>",
+"link": "fdds.pl"
+},
+"17" : {
+"offset": "17",
+"icon" :"/images/icons/phone-orange.png",
+"numer": "116000",
+"nazwa": "FUNDACJA ITAKA - TELEFON W SPRAWIE ZAGINIONEGO DZIECKA I NASTOLATKA",
+"tekst": "Skierowany do rodziców i opiekunów, którym zaginęło dziecko, do zaginionych dzieci oraz wszystkich osób, które mogą pomóc w ich odnalezieniu. Mediacje w przypadku ucieczki nastolatka z domu. W dni powszednie 9.00 do 21.00 sobota i niedziela 9.00 do 13.00. <br><strong>116 000</strong>",
+"link": "zaginieni.pl"
+},
+"18" : {
+"offset": "18",
+"icon" :"/images/icons/phone-orange.png",
+"numer": "226547070",
+"nazwa": "FUNDACJA ITAKA - CENTRUM POSZUKIWAŃ LUDZI ZAGINIONYCH",
+"tekst": "Przyjmuje zgłoszenia dotyczące zaginięć osób dorosłych i dzieci, jak również przypadków porwań rodzicielskich. Udziela porad, w jaki sposób zorganizować poszukiwania na własną rękę oraz czego można oczekiwać od policji. Wsparcie psychologa, prawnika lub pracownika socjalnego. Możliwość rejestracji osoby o nieustalonej tożsamości (NN). W dni powszednie 9.00 do 21.00 sobota i niedziela 9.00 do 13.00. <br><strong>22 654 70 70</strong>",
+"link": "zaginieni.pl"
+},
+"19" : {
+"offset": "19",
+"icon" :"/images/icons/phone-red.png",
+"numer": "",
+"nazwa": "POGOTOWIE DUCHOWE",
+"tekst": "Dla osób potrzebujących duchowej pomocy Kontakt z zakonnikami kościoła rzymskokatolickiego. ",
+"link": "pogotowieduchowe.pl"
+},
+"20" : {
+"offset": "20",
+"icon" :"/images/icons/phone-orange.png",
+"numer": "800280900",
+"nazwa": "ZRANIENI W KOŚCIELE DLA OSÓB DOTKNIĘTYCH PRZEMOCĄ SEKSUALNĄ W KOŚCIELE",
+"tekst": "Katolickie środowisko wsparcia dla osób dotkniętych przemocą seksualną w Kościele. Kontakt przeznaczony przede wszystkim dla osób, które same doświadczyły wykorzystywania seksualnego, oraz ich najbliższych. Wtorki 19.00 do 22.00.<br>Jeżeli nie masz jeszcze 18 lat, zadzwoń pod numer Telefonu Zaufania dla Dzieci i Młodzieży <strong>116 111</strong>.<br><strong>800 280 900</strong>",
+"link": "zranieni.info"
+}
+}
+}

@@ -1,0 +1,26 @@
+{
+  "premiera-strony-gabinetu": {
+    "meta-title": "Strona internetowa Gabinetu Świadomego Rozwoju już jest!",
+    "meta-description": "GŚR rozpoczyna swoją działalność! Na stronie przygotowanej specjalnie dla GŚR, dowiesz się więcej o coachingu i psychoterapii. Zapraszam do korzystania z moich usług!",
+    "category": "Psychoterapia",
+    "post-title": "<span style='color:#ff0303'>PREMIERA</span><br> STRONA JOLANTAPIOTROWSKA.COM",
+    "photos": {
+      "0": "/images/blog-images/strona internetowa gsr.jpg"
+    },
+    "text": "<p>Strona stworzona z największą starannością przez Roberta Bajorek, <a href='https://rbcode.pl' target='_blank'>Rbcode</a><br>W zespole informatyków, projektantów i product managera, pełnych zaangażowania na każdym etapie tworzenia. Z myślą o gabinecie i o tych, którzy w życiu są otwarci na zmiany.<br><ul class='content-one-items'><li>Szukasz pomysłu na film o terapeutycznych właściwościach, zajrzyj do zakładki <a href='https://jolantapiotrowska.com/faq'>FAQ</a></li><li>Chcesz zobaczyć, co czuje osoba przechodząca depresję, obejrzyj w zakładce <a href='https://jolantapiotrowska.com/psychoterapia'>psychoterapia</a>, trzyminutową produkcję stworzoną w ramach kampanii tej choroby.</li><li>Jeżeli szukasz pomocy poza gabinetem lub patrzysz na krzywdę innych, chcesz pomóc i nie wiesz jak, polecam ikonę czerwonego krzyża.</li></ul></p>",
+    "author": "Jolanta Piotrowska",
+    "date": "25.02.2021"
+  },
+  "premiera-exanimationes-incidamus": {
+    "meta-title": "Premiera Exanimationes Incidamus! Krótka historia o depresji.",
+    "meta-description": "Wspólny projekt Gabinetu Świadomego Rozwoju i Studio Concept. Krótka historia o depresji, która jest czwartą najpoważniejszą chorobą na świecie!",
+    "category": "Psychoterapia",
+    "post-title": "<span style='color:#ff0303'>PREMIERA</span><br> FILM EXANIMATIONES INCIDAMUS CZYLI DEPRESJA",
+    "photos": {
+      "0": "/images/blog-images/depresja.jpg"
+    },
+    "text": "<p>PREMIERA FILMU EXANIMATIONES INCIDAMUS CZYLI DEPRESJA.<br> To wspólne dzieło Gabinetu Świadomego Rozwoju i Studio Concept.<br>Jedna historia, która dotyka nie jednego. Opowieść prawdziwa, gdzie mało gry a dużo człowieka. Symbol każdej choroby pełnej wewnętrznego chaosu, uporczywego smutku i pustki po przeciwnej stronie barwnej codzienności, widzianej oczami bliskich.<br<Depresja to czwarta najpoważniejsza choroba na świecie, gdzie ciało zdrowe, wnętrze pełne cierpienia. Zanim zaczniesz walczyć z nią, zauważ i zrozum. Chcesz pomóc?  Rozpowszechniaj, aby choroby dotykające psychiki przestały być tabu.</p><br><div class='center-video'><video width='100%' controls='' id='fullVideo'><source src='../images/movie.mp4' type='video/mp4'>Your browser does not support HTML5 video.</video></div>",
+    "author": "Jolanta Piotrowska",
+    "date": "26.02.2021"
+  }
+}
