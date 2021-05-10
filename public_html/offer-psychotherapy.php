@@ -58,13 +58,21 @@
 					</div>
 				</div>
 			</div>
+
+
 			<div class="col-lg-6 col-md-12 p-0 center-video">
-				<video width="100%" controls id="fullVideo">
+				<video class="video" width="100%" id="fullVideo">
 					<source src="images/movie.mp4" type="video/mp4">
 					Your browser does not support HTML5 video.
 				</video>
+				<div class="controls">
+					<div class="buttons">
+						<button id="play-pause"></button>
+					</div>
+				</div>
 			</div>
 		</div>
+
 
 		<div class="row m-0 section__bg--gradient">
 			<div class="col-12 pb-0 pe-0 ps-0">
@@ -247,7 +255,7 @@
 		<i class="fas fa-chevron-up"></i>
 	</a>
 
-	<?php include_once "includes/cookies.php";?>
+	<?php //include_once "includes/cookies.php";?>
 
 	<!--=== Bootstrap ===-->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -256,7 +264,7 @@
 	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
 	<script src="libs/aos/aos.js"></script>
 	<script src="js/scripts.js"></script>
-	<script>
+	<!-- <script>
 		addEventListener("click", event => {
 			const btn = event.target;
 			if (btn.tagName.toLowerCase() !== "button") return;
@@ -269,7 +277,7 @@
 			else if (div.msRequestFullScreen)
 				div.msRequestFullScreen();
 		});
-	</script>
+	</script> -->
 	</body>
 
 </html>
